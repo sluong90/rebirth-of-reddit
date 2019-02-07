@@ -2,8 +2,44 @@ body {
     color: black;
     font-size: 15px;
     font-family: 'Open Sans Condensed', sans-serif;
+    background-size: cover;
     
 }
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    border: 1px solid black;
+    background-color: lavender;
+    border-radius: 10px;
+    
+}
+
+#art:hover{
+    background-color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px palevioletred;
+    border-radius: 15px;
+}
+
+#food:hover{
+    background-color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px palevioletred;
+    border-radius: 15px;
+}
+
+#jokes:hover{
+    background-color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px palevioletred;
+    border-radius: 15px;
+}
+
+
 
 #container {
     display: flex;
@@ -11,7 +47,7 @@ body {
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
-    background-color: paleturquoise;
+    background-image: url('https://images.pexels.com/photos/760691/pexels-photo-760691.jpeg?cs=srgb&dl=ash-cloud-beautiful-clouds-blue-eyes-760691.jpg&fm=jpg');
     align-items: center;
     
 }
@@ -37,11 +73,26 @@ body {
     width: 400px;
     margin: 20px;
     margin-bottom: auto;
-    background-color: white;
     overflow: scroll;
     text-align: center;
     padding: 10px;
+    background-image: url('../myassets/airplane.jpg');
+    
 
+}
+
+#container > div:first-of-type {
+    height: 500px;
+    width: 500px;
+    border: 3px dotted orange;
+    box-shadow: 10px 5px 5px palegoldenrod;
+    font-size: 20px;
+
+}
+
+
+.author {
+    font-weight: bold;
 }
 
 /* font-family: 'Open Sans Condensed', sans-serif;
